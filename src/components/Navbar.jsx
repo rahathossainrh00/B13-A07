@@ -21,15 +21,15 @@ export default function Navbar() {
         <div className="flex items-center gap-1">
           <NavLink to="/" end className={navLinkClass}>
             <HomeIcon className="w-4 h-4" />
-            Home
+            <span className="hidden sm:inline">Home</span>
           </NavLink>
           <NavLink to="/timeline" className={navLinkClass}>
             <ClockIcon className="w-4 h-4" />
-            Timeline
+            <span className="hidden sm:inline">Timeline</span>
           </NavLink>
           <NavLink to="/stats" className={navLinkClass}>
             <ChartBarIcon className="w-4 h-4" />
-            Stats
+            <span className="hidden sm:inline">Stats</span>
           </NavLink>
         </div>
       </div>

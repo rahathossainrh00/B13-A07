@@ -49,27 +49,27 @@ export default function TimelinePage() {
         <h1 className="text-3xl font-bold text-gray-900 mb-6">Timeline</h1>
 
         {/* Filter Bar */}
-        <div className="flex flex-wrap items-center gap-3 mb-6">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-6">
           {/* Type Filter */}
-          <div className="relative">
+          <div className="relative w-full sm:w-auto">
             <select
               value={filter}
               onChange={e => setFilter(e.target.value)}
-              className="appearance-none bg-white border border-gray-200 rounded-lg text-sm pl-3 pr-8 py-2 text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#1e4d3b] cursor-pointer"
+              className="appearance-none w-full sm:w-auto bg-white border border-gray-200 rounded-lg text-sm pl-3 pr-8 py-2 text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#1e4d3b] cursor-pointer"
             >
               <option value="All">Filter timeline</option>
               {filterOptions.slice(1).map(opt => (
                 <option key={opt} value={opt}>{opt}</option>
               ))}
             </select>
-            <FunnelIcon className="w-3.5 h-3.5 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            <FunnelIcon className="w-3.5 h-3.5 text-gray-400 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           </div>
 
           {/* Sort */}
           <select
             value={sortOrder}
             onChange={e => setSortOrder(e.target.value)}
-            className="appearance-none bg-white border border-gray-200 rounded-lg text-sm px-3 py-2 text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#1e4d3b] cursor-pointer"
+            className="appearance-none w-full sm:w-auto bg-white border border-gray-200 rounded-lg text-sm px-3 pr-8 py-2 text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#1e4d3b] cursor-pointer"
           >
             <option value="newest">Newest First</option>
             <option value="oldest">Oldest First</option>
