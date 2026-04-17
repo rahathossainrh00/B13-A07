@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .status-overdue {
+    @apply bg-[#ff4d4f] text-white text-[11px] font-semibold px-3 py-1 rounded-full;
+  }
+  .status-almost-due {
+    @apply bg-[#fbbf24] text-white text-[11px] font-semibold px-3 py-1 rounded-full;
+  }
+  .status-on-track {
+    @apply bg-[#1e4d3b] text-white text-[11px] font-semibold px-3 py-1 rounded-full;
+  }
+  .tag-pill {
+    @apply text-[10px] font-bold px-3 py-1 rounded-full bg-[#dcfce7] text-[#166534] tracking-wider;
+  }
+  .btn-action {
+    @apply w-full flex items-center gap-3 px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0;
+  }
+  .checkin-btn {
+    @apply flex flex-col items-center justify-center gap-2 flex-1 py-4 rounded-lg border border-gray-200 hover:bg-gray-50 hover:border-primary transition-all text-sm font-medium text-gray-700 cursor-pointer;
+  }
+  .stat-detail-card {
+    @apply bg-white rounded-xl border border-gray-200 p-5 text-center shadow-sm;
+  }
+}
