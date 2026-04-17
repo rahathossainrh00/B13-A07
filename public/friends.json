@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "picture": "https://i.pravatar.cc/150?img=47",
+    "email": "sarah.chen@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman year at university. We bonded over late-night study sessions and terrible dining hall food. She is now a UX designer in San Francisco.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "marcus.j@outlook.com",
+    "days_since_contact": 22,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager at my internship. Taught me that good code is written for humans first. Still meets me for coffee every month to talk about career growth.",
+    "goal": 21,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 3,
+    "name": "Aisha Patel",
+    "picture": "https://i.pravatar.cc/150?img=29",
+    "email": "aisha.patel@proton.me",
+    "days_since_contact": 41,
+    "status": "overdue",
+    "tags": ["family", "childhood"],
+    "bio": "My cousin who grew up in the same neighborhood. We used to build pillow forts every weekend. Now she is studying medicine in London and we rarely get to talk.",
+    "goal": 30,
+    "next_due_date": "2025-06-30"
+  },
+  {
+    "id": 4,
+    "name": "Ryan O'Brien",
+    "picture": "https://i.pravatar.cc/150?img=68",
+    "email": "ryan.obrien@hey.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["hobby", "travel"],
+    "bio": "Met Ryan on a backpacking trip through Southeast Asia. He's the kind of person who always knows the best hidden gem restaurants in any city. We plan a trip together every year.",
+    "goal": 30,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 5,
+    "name": "Olivia Martinez",
+    "picture": "https://i.pravatar.cc/150?img=25",
+    "email": "olivia.m@gmail.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work", "college"],
+    "bio": "Olivia and I worked on the same product team for two years. She has a rare talent for turning complicated problems into elegant solutions. Now she leads design at a startup.",
+    "goal": 14,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 6,
+    "name": "Tom Baker",
+    "picture": "https://i.pravatar.cc/150?img=57",
+    "email": "tombaker@icloud.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["neighborhood", "close friend"],
+    "bio": "Tom was my next-door neighbor for six years. We spent countless evenings on the porch talking about everything from politics to pizza toppings. He moved across the country last year.",
+    "goal": 30,
+    "next_due_date": "2025-06-10"
+  },
+  {
+    "id": 7,
+    "name": "Priya Nair",
+    "picture": "https://i.pravatar.cc/150?img=44",
+    "email": "priya.nair@yahoo.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["book club", "hobby"],
+    "bio": "Priya runs the book club I joined two years ago. Her reading recommendations have genuinely changed how I see the world. We also share a love for strong filter coffee.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Park",
+    "picture": "https://i.pravatar.cc/150?img=15",
+    "email": "daniel.park@gmail.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["gym", "college"],
+    "bio": "Daniel and I were gym partners throughout college. He pushed me to run my first 10K. He now coaches youth athletics and is incredibly inspiring to be around.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  }
+]
